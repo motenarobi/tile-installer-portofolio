@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a9f8699c5e.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+  <!-- Header Section -->
+  
+    <div id="header">
+      <div class="container">
+        
+          <nav>
+            <img src="images/BackgroundEraser_20241025_190128004.png" width="200px" class="logo">
+            <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <p>Tile expert</p>
+            <h1>Hi, I'm <span>Peter Thaish</span><br>  An expert in installation of tiles, granite marbles and floor boards</h1>
+        </div>
+      </div>
+    </div>
+   <!--about section--->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            
+            
+            <div class="about-col-2">
+                <h1 class="sub-title">About  Me</h1>
+                <p>I’m Peter Thaish, a tile installer with over  years of experience based in Nakuru.
+                   I specialize in both residential and commercial projects, working with various tile types,
+                    including ceramic and natural stone. My focus is on quality craftsmanship and client satisfaction,
+                     offering free consultations and transparent estimates to ensure your vision is realized.
+                      Whether it’s a kitchen, bathroom, or any other space, I’m committed to delivering beautiful
+                       results and an exceptional customer experience. Let’s transform your space together!</p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Technical Profiency</span><br>A Matery of installation Techniques including measuring, 
+                      cutting and installing tiles accurately</li>
+                    <li><span>Attetion to detail</span><br>A keen eye to details is vuital in aesthetics and functionality</li>
+                    <li><span>Design</span><br>Expert in Tile designing</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Tile Installation</span><br>i have worked in various homes and business buildings in installing tiles</li>
+                    <li><span>Tile Installation</span><br> Worked at Kingdom Internation school</li>
+                    <li><span>Tile Installation</span><br>I did tile installation at Heavens Gate</li>
+
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023</span><br>Internship</li>
+                    <li><span>2022</span><br>Diploma in building technology</li>
+                    <li><span>2022</span><br>Certificate in Building technology</li>
+                </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+                
+
+  <!-- Services Section -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+     <div>
+        <i class="fa-solid fa-code"></i>
+<h2>Tile Installation</h2>
+<p>Tile installation involves a thorough preparation process,
+   where the installer assesses the installation area,
+   measures dimensions, and ensures the substrate is suitable and level.
+    They assist clients in selecting the appropriate type of tile based
+     on factors like durability and aesthetics. During the installation,
+      the installer carefully lays out the tiles in the desired pattern,
+       cutting them to fit edges and corners, applying adhesive, and maintaining 
+       precise spacing with grout lines, using specialized tools to achieve a professional finish. 
+  </p>
+  <a href="#">Learn more</a>
+    </div>
+    <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>Grouting and Sealing</h2>
+        <p>After the tiles are securely set, the installer fills the spaces
+           between them with grout, which not only enhances the visual appeal
+            but also prevents moisture intrusion. The choice of grout—sanded 
+            or unsanded—depends on the tile type and joint width. Following grouting,
+             the installer applies a sealant to both the grout and, in some cases,
+              the tiles themselves, protecting the surface from stains and moisture,
+               which is crucial for ensuring the longevity and ease of maintenance of the tiled area.
+              </p>
+              <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Tile repair and mainatance</h2>
+                    <p>Tile repair and maintenance services address common issues such as cracked,
+                       chipped, or loose tiles, allowing for the replacement of individual tiles
+                        or re-grouting as necessary. Additionally, installers provide routine
+                         maintenance services, including deep cleaning, re-sealing, and polishing,
+                          to keep the tiles looking their best. They also offer valuable advice
+                           on ongoing care, ensuring that the tiled surfaces remain durable
+                            and aesthetically pleasing over time.
+                          </p>
+                          <a href="#">Learn more</a>
+                            </div>
+        </div>
+    </div>
+</div>
+  <!-- Portfolio Section -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/project1.jpg" height="400" alt="">
+                <div class="layer">
+                    <h3>Granite</h3>
+                    <p>Granite tiles are natural stone tiles made from granite,
+                       known for their durability, unique patterns, and resistance
+                        to heat and scratches, making them a popular choice for flooring and countertops.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="images/project5.jpg" >
+                <div class="layer">
+                    <h3>floor boards</h3>
+                    <p>Floorboards are long, narrow planks made from wood or engineered
+                       materials used to create a sturdy and aesthetically pleasing surface
+                        for flooring in homes and buildings.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="images/project14.jpg" height="400">
+                <div class="layer">
+                    <h3>ceramic tiles</h3>
+                    <p>Ceramic tiles are durable, water-resistant flooring and wall coverings
+                       made from clay that is fired at high temperatures, often available in
+                        various colors, patterns, and finishes.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+          </div>
+          <a href="portofolio/" class="btn">See more</a>
+      </div>
+  </div>
+  <!-- Contact Section -->
+  
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contanct@thaishpeter@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0793668699</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                  
+                </div>
+                
+            </div>
+            
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your  name" required><br><br>
+                    <input type="email" name="email" placeholder="Your email" required><br><br>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <a href="thaishpeter@gmail.com"></a><button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i>Peter Thaish.<i class="fa-solid fa-code"></i>Tile Installer</p>
+    </div>
+</div>
+
+  
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+  <script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+       function openmenu(){
+        sidemenu.style.right = "0";
+       }
+       function closemenu(){
+        sidemenu.style.right = "-200px";
+       } 
+
+
+    
+</script>
+</body>
+</html>
